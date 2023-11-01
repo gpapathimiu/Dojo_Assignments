@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav d-flex justify-between align-center">
+    <h1>DojoWeather</h1>
+    <ul class="d-flex">
+        <li onclick="alert('Loading weather report...')">Burbank</li>
+        <li onclick="alert('Loading weather report...')">Chicago</li>
+        <li onclick="alert('Loading weather report...')">Dallas</li>
+    </ul>
+    </nav>
+    <header class="d-flex align-center justify-between">
+        <h1 class="fontBig">San Jose</h1>
+        <div>
+            <label for="temp" class="fontSmall">show temperature in</label>
+            <select name="temp">
+                <option value="C">°C</option>
+                <option value="F">°F</option>
+            </select>
+        </div>
+    </header>
+    <main class="d-flex">
+        <div class="weatherDay">
+            <div class="d-flex flex-column align-center">
+                <h1 class="fontBig">Today</h1>
+                <img src="assets/some_rain.png" alt="cloudy" class="weatherPic">
+                <h3 class="fontSmall">some rain</h3>
+            </div>
+            <div class="d-flex justify-evenly tempValues">
+                <span class="text-red #temp1">24°</span>
+                <span class="text-blue #temp2">18°</span>
+            </div>
+        </div>
+        <div class="weatherDay">
+            <div class="d-flex flex-column align-center">
+                <h1 class="fontBig">Tomorrow</h1>
+                <img src="assets/some_sun.png" alt="cloudy" class="weatherPic">
+                <h3 class="fontSmall">some sun</h3>
+            </div>
+            <div class="d-flex justify-evenly tempValues">
+                <span class="text-red #temp3">27°</span>
+                <span class="text-blue #temp4">19°</span>
+            </div>
+        </div>
+        <div class="weatherDay">
+            <div class="d-flex flex-column align-center">
+                <h1 class="fontBig">Friday</h1>
+                <img src="assets/some_clouds.png" alt="cloudy" class="weatherPic">
+                <h3 class="fontSmall">some clouds</h3>
+            </div>
+            <div class="d-flex justify-evenly tempValues">
+                <span class="text-red #temp5">21°</span>
+                <span class="text-blue #temp6">16°</sp>
+            </div>
+        </div>
+        <div class="weatherDay">
+            <div class="d-flex flex-column align-center">
+                <h1 class="fontBig">Saturday</h1>
+                <img src="assets/some_sun.png" alt="cloudy" class="weatherPic">
+                <h3 class="fontSmall">some sun</h3>
+            </div>
+            <div class="d-flex justify-evenly tempValues">
+                <span class="text-red #temp7">26°</span>
+                <span class="text-blue #temp8">21°</h1>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex align-center" id="cookies">
+        <img src="assets\cookie.png" alt="cookie">
+        <div>
+            <h3 class="footerCookie">Stop! Cookie time</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, neque voluptatibus. At modi, possimus officia reprehenderit quisquam maiores earum tenetur dicta molestias veniam facere amet omnis? Laborum natus, saepe autem iure voluptatum officiis aliquam inventore vero. Eum in dolorum cumque. <a href="#"> Learn more...</a></p>
+        </div>
+        <button class="btn" onclick="accept()">I accept</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

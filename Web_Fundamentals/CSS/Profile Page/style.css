@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My CSS starts here*/
+
+.nav {
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    margin: 0px 0px;
+    align-items: center;
+    padding: 10px 20px;
+    }
+
+.nav-title {
+    display: flex;
+    color: white;
+    font-family: sans-serif;
+    padding: 0px 10px;
+}
+
+.nav-links {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+}
+li .active {
+    color: white;
+}
+
+a {
+    color: rgb(186, 186, 186);
+    text-decoration: none;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.btn {
+    width: 80px;
+    height: 25px;
+    background-color: rgb(81, 177, 255);
+    border-style: none;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.profileOutline {
+    border: 3px solid gray;
+    margin: 10px 30px;
+    position: relative;
+    width: 100%;
+}
+
+.blue{
+    background-color: rgb(53, 153, 187);
+    height: 120px;
+}
+
+
+.container{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+
+}
+
+.janesProfile{
+    width: 70%;
+    height: auto;
+    margin: 10px 10%;
+}
+.janesInfo{
+    width: 100%;
+}
+
+.janesEducation{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.flex-nowrap{
+    flex-wrap: wrap;
+}
+
+.myProfile{
+    width: 70%;
+}
+
+.profilePicture{
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 35px;
+    left: 20px;
+}
+
+.profileBox{
+    margin: 40px;
+position: relative;
+top: 10px;
+}
+
+.mapMarker{
+    height: 20px;
+    width: 15px;
+    padding: 10px;
+}
+
+.shortBio{
+    padding-bottom: 20px;
+}
+
+.gearIcon{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.circleIcon{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.profileHeader{
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ToddS{
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+
+.acceptCircle{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+
+.closeCircle{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+
+.number {
+    display: inline-block;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+}
+
+.educationText{
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.connectionsPage {
+    flex-direction: column;
+    width: 100%;
+    border: 3px solid lightgray;
+}
+
+.connection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.requests{
+    height: 50px;  
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.connection > img {
+    width: 50px;
+    height: 50px;  
+    border: 3px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.viewMore {
+    margin: 10px 0px;
+    border-top: 2px solid lightgray;
+    padding: 10px 5px 2px;
+}
+
+.text-blue {
+    color: blue;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.profile {
+    font-style: bold;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+.profileName {
+    font-style: bold;
+    font-size: 40px;
+    padding-right: 10px;
+}
+
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}

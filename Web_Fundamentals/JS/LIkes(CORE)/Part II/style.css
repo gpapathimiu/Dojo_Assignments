@@ -1,0 +1,150 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My CSS Starts Here!*/
+
+
+body {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.nav {
+    background-color: black;
+    padding: 20px 30px;
+}
+
+.network {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.ProfilePic {
+    height: 150px;
+    width: 150px;
+}
+
+
+.profileBox {
+    border: 4px solid black;
+    width: 25%;
+    gap: 5%;
+    height: 400px;
+    padding: 20px 10px;
+    line-height: 3;
+}
+
+header {
+    font-size: 48px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.updates {
+    border: 4px solid black;
+    padding: 20px 50px;
+    margin: 5px;
+}
+
+.allUpdates {
+    width: 60%;
+}
+
+.textNames {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.likes {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: rgb(255, 182, 63);
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,1);
+    padding: 10px 25px;
+    margin: 10px 0px;
+}
+
+.fontSmall {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.updates {
+    line-height: 2;
+}
+
+h4 {
+    font-weight: 700;
+    font-family: sans-serif;
+}

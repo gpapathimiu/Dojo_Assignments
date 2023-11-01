@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="d-flex nav space-between">
+        <h1 class="bigText">Dojonary</h1>
+        <input type="text" placeholder="Search" class="fontMedium">
+        <button onclick="LogOut(this)">Log in</button>
+    </nav>
+    <main class="main d-flex space-between">
+            <div>
+                <div class="definitionBox d-flex align-center space-between">
+                    <div class="nounNinja d-flex direction-column align-center">
+                        <h1 class="bigText">ninja</h1>
+                        <h3 class="fontSmall italicFont">noun</h3>
+                        <p class="fontSmall">Plural: <span class="italicFont">ninjas</span></p>
+                        <button class="likes fontSmall" onclick="alert('Ninja was liked')"> 13 likes </button>
+                    </div>
+                    <div>
+                        <p class="fontMedium">A practitioner Skilled in the <br> <a href="#">Japanese</a> art of Ninjitsu</p>
+                    </div>
+                </div>
+                <div class="definitionBox d-flex align-center space-between">
+                    <div class="nounNinja d-flex direction-column align-center">
+                        <h1 class="bigText">ninja</h1>
+                        <h3 class="fontSmall italicFont">noun</h3>
+                        <p class="fontSmall">Plural: <span class="italicFont">ninjas</span></p>
+                        <button class="likes fontSmall" onclick="alert('Ninja was liked')"> 37 likes </button>
+                    </div>
+                    <div>
+                        <p class="fontMedium">A <a href="#">programmer</a> who breaks <br> down problems with <a href="#">zen</a>-like <br> focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="addDefinition d-flex direction-column space-between">
+                <h1 class="fontLarge">Dojonary is <br> defined by YOU</h1>
+                <button class="addButton fontMedium" onclick="AddDefinition(this)">Add Definition</button>
+            </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
+

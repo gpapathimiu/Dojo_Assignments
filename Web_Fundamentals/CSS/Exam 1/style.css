@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*My CSS starts here*/
+
+
+.container {
+    background-color: #1a1a1a;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+header{
+    padding: 30px 20px;
+}
+header > img {
+    height: 90px;
+}
+
+header > h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.text-white {
+    color: white;
+
+}
+
+.text-orange {
+    color: rgb(255, 128, 0);
+    text-decoration: none;
+}
+
+.text-gray {
+    color: rgb(190, 190, 190);
+}
+
+.mainPic {
+    width: 100%;
+}
+
+nav {
+    background: linear-gradient(180deg, rgba(148,148,148,0.7261029411764706) 0%, rgb(26, 26, 26) 100%);
+    padding: 10px 20px;
+    border-right: 2px solid gray;
+    align-items: center;
+}
+
+.navElement {
+    padding: 10px 30px 10px 20px;
+    text-decoration: none;
+    border-right: 2px solid gray;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.gradient-border {
+    border: 5px solid;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+}
+
+.navContact {
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.mainElement1 {
+    padding: 70px 20px;
+    border-top: 5px solid gray;
+}
+
+
+.mainElement2 {
+    background-color: rgb(11, 11, 11);
+    margin: 0px auto;
+    padding: 30px 35px;
+    display: flex;
+    align-items: center;
+}
+
+.buyNow {
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    background: linear-gradient(183deg, rgba(255, 178, 119, 0.82) 0%, rgb(225, 112, 0) 100%);
+    color: white;
+    margin-right: 50px;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.portfolioTop {
+    padding: 30px 10px;
+    margin: 0px 10px;
+}
+
+.portfolioImage {
+    border: 5px solid rgb(63, 63, 63);
+    margin-left: 15px;
+    width: 250px;
+    height: auto;
+}
+
+.portfolioContent {
+    padding: 20px;
+    line-height: 1.2;
+}
+
+.portfolioText {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 16px;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+}
+
+footer > a {
+    margin-left: auto;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.mainText{
+    font-size: 26px;
+}
+
+.subText1{
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 1.3;
+}
+
+.subText2{
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+
+.buttonSection {
+    margin-left: 35px;
+}
+
+.marginFix {
+    margin: 10px 30px;
+}
+
+.headerText {
+    font-size: 24px;
+}
+
+.textBox {
+    padding-left: 10px;
+}
+
+.d-flexMain{
+    display: flex;
+    gap: 4%;
+}
+
+.align-center{
+    display: flex;
+    align-items: center;
+}
+
+.justify-column {
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.borderFar {
+    border: none;
+    border-right: 2px solid gray;
+    padding-right: 440px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainIcon{
+    height: 45px;
+    width: 50px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 20px;
+}

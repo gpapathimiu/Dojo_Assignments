@@ -1,0 +1,13 @@
+.element {
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px #999;
+    height: 80px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.element h3, .element p {
+    margin: 5px 0px;
+}

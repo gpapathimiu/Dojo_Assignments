@@ -1,0 +1,24 @@
+h1 {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-style: sans serif;
+}
+
+h2 {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+h3 {
+    background-color: rgb(111, 200, 216);
+    color: purple;
+    text-align: right;
+    text-decoration: underline;
+}
+
+#blue {
+    color: aqua;
+}

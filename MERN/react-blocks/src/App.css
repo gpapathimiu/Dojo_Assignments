@@ -1,0 +1,22 @@
+#root {
+  width: 85%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+
+.sub {
+  padding: 10px;
+  margin: 10px;
+}
+
